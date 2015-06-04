@@ -1,0 +1,36 @@
+*{
+  box-sizing : border-box;
+}
+body{
+    font-family: "HelveticaNeue-Light",sans-serif; 
+    background-color : #5d5553;
+}
+h1{
+  text-align : center; color : white;
+}
+h2{
+  background-color : #7ab0b9;
+  color : white;
+  padding : 10px;
+}
+p{
+  padding-bottom : 18px;
+  padding-left : 5px
+}
+.paragraph-title{
+                color : gray;
+                padding-left : 5px;
+                text-align : center;
+}
+/*text.align : center is not working for me here, paragraph titles are still on the left*/
+ul { list-style-type: circle;
+}
+div{
+    background-color : #f5edeb
+}
+/* I'm adding color just to see the borders and what it would look like. It looks awful though, it really looks much better with a white background so I might revert to that later on.*/
+a{
+  color : black
+}
+/*this works for me right now, but if I ever need to add a link to a paragraph I will have to start working with classes*/
+/*I have tried to put the lesson titles ''h2'' on the left side going along side the lesson note. I tried using ''display : flex'' for this purpose with horrible results, so I left them out in the end. I have also tried using ID's and to position them but again, no luck.*/

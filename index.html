@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  Fabio DI Stefano</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!DOCTYPE html>
+<html >
+<body>
+  <head> 
+    <meta charset="UTF-8">
+    <title> Notes </title> 
+    <!--<link rel="stylesheet" type="text/css" href="style.css"> To link this HTML file to the CSS document this is what we should add for a tool that requires it, and if the CSS file is actually called style.css -->
+  </head>
+  <h1>Notes</h1>
+    <div class="lessons">
+      <h2>Lesson 1</h2>
+       <div>
+        <b class="paragraph-title">The Web</b>
+          <p> The web is composed of 3 major elements. The user or the browser which is operated by the user, the interner and the servers which communicate with the Interner via the http protocol.
+          </p>
+       </div>  
+       <div> 
+         <b class="paragraph-title">HTML</b>
+          <p> HTML stands for <em>Hypertext Markup Languages</em> and can be broken down into 4 main categories:
+            <ul>
+            <li>Text content</li>
+            <li>Markups</li>
+            <li>References to other documents</li>
+            <li>Links to other pages</li>  
+            </ul>
+          </p>
+       </div>
+       <div>
+        <b class="paragraph-title">Tags and Elements</b>
+          <p>Html documents are also made of tags and elements. ''< b >'' for example is an opening tag (wihtout the spaces) and is closed by the closing tag ''< /b >''. Whatever is written inbetween the two tags is the content and will be displayed as bold in this specific example. The whole thing, ''< b > content < /b >'' is called an element.
+          </p>
+       </div> 
+       <div>     
+        <b class="paragraph-title"> Whitespace </b>
+          <p>To create whitespace it is necessary to use elements, we can use either < br > which stands for break and this doesn't need a closing tag as it will just break the line in the point where it is placed. Breaks are inline elements, like < b >, < a >, etc. which means they don't really occupy a ''physical'' space in the website, what was referred to as a ''box'' in the videos.
+          <br> This is what happens when we're using block elements, they occupy a physical space, so for example if we use < pr >, which stands for paragraph, it automatically creates whitespace around itself, but in this case we will need to close the element putting the closing tag < /pr > at the end of the paragraph.
+          </p>
+        </div>     
+    </div> 
+    <div class="lessons">        
+      <h2>Lesson 2</h2>
+        <div>
+        <b class="paragraph-title">Why start with Front end development to learn programming?</b>
+          <p> Front end Development is a great place to start learning about programming as it is inherently visual, any changes made to the code will result in a visual effect making learning more effective. 
+          <br>Unlike a language like python which doesn’t immediately translate to something as accessible as a webpage, and needs an understanding of the language to be accessible or shared with others.
+          </p>
+       </div>  
+        <div> 
+         <b class="paragraph-title">HTML, CSS and Javascript</b>
+          <p>Html, CSS and JS are the three languages that web development is based on, each one has different purposes, but in this course we’ll cover only Html and CSS.
+          <br>Html and CSS change over time, but learning their basic principles will allow us to learn new techniques much faster as they tend not to change over time.
+          <br>HTML files are the structure of a webpage, imagine the walls of our home. CSS files define the Style, or what color the walls are in our analogy. Javascript files are the interactive components.
+          </p>
+       </div>
+        <div>
+        <b class="paragraph-title">Developer Tools</b>
+          <p> Some browser, specifically Chrome have some built in futures called <em>Developer Tools</em> that allow us to see, and modify if we want, the structure of a webpage in Html and CSS code. We can also inspect whatever element we want on the website, and the browser will highlight which code generates that element in the developer tool.
+          </p>
+       </div> 
+        <div>     
+        <b class="paragraph-title">DOM</b>
+         <p>DOM or <em>Document Object Model</em>, are the tree structure of a webpage or how the browser interprets code to actually create the webpage structure.
+         <br>HTML being the language of the web, has its specific syntax and rules, the basic word in the html language is a tag, which the browser turns into elements that then form the DOM tree.
+         <br>A tag can also have attributes with values.
+         <br> CSS has also syntax and rules, but does not impact the structure of the website but the rules, for example we can specify that every element belonging to a specific class ‘’x’’ will have a specific color and so on.
+         </p>
+        </div> 
+        <div>     
+        <b class="paragraph-title">Boxes</b>
+          <p>The structure of a website is entirely composed of boxes. This is easy to identify when playing arounf with the developer tool in the browser, highliting an element will highlight the entire box. 
+          <br>No matter what shape it contains, it can be a circle like the example in the lesson, the form of the element and the space it occupies in the webpage is a box or a rectangle.
+          <br>All of these boxes put together compose the structure of the website.
+          </p>
+        </div> 
+    </div>  
+    <div class="lessons">
+      <h2>Lesson 3</h2>
+        <div>
+        <b class="paragraph-title">How does CSS control HTML?</b>
+          <p> We can either assign a style through CSS to any HTML element like h1, h2, p etc. which will then be the ''selectors'', and this is fine if we want every one of a certain element to have the same style but if we want to have h1's with different styles we will have to use classes, in which case we will be dealing with class selectors. 
+          </p> 
+      </div> 
+        <div>
+        <b class="paragraph-title">How can I include styling to my webpage with CSS?</b>
+          <p> There are 3 methods for this but I will only note down 2 because the third is messy and complicated, I don't need that.
+          <br>The first method is to write it directly in the ''head'' of our HTML file by opening a ''style'' tag.
+          <br>The second method and the one that seems to make more sense to me, also because it's cleaner, is to have a separate CSS file containing the CSS code, which is then linked to our HTML file.
+          </p> 
+      </div> 
+        <div>
+         <b class="paragraph-title">Positioning and resizing boxes</b>
+          <p> It is good to build a habit of defining sizes in percentages rather than pixels, that way the boxes can resize themselves depending on the situation.
+          <br>To position them, we have the option of using, <em>display: flex
+          </em> which will override CSS's default behaviour and position the boxes next to each other.
+          </p> 
+      </div> 
+    </div>  
+    <button><strong> <a href="http://codepen.io/diste66/full/zGNbwp/">Previous Version</a></strong></button>
+    <!--Having a button here is completely useless, but it's dope so I'm leaving it in-->
+</body>
+</html>
+    
+    
+    
+    
+    
+  </body>
+</html>
